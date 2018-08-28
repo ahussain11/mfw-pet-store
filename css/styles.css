@@ -1,0 +1,13 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header-logo {
+    width: 30%;
+}
+
+.nav-list > * {
+    display: inline;
+    list-style-type: none;
+}
